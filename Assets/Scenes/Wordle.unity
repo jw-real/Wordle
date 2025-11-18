@@ -443,7 +443,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7974673381050950084, guid: 2fbde598a56ceef869acc41f6560fab3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -614,20 +615,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emptyState:
-    fillColor: {r: 0.22745098, g: 0.22745098, b: 0.23529412, a: 0.39215687}
-    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    fillColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+    outlineColor: {r: 0.22745098, g: 0.22745098, b: 0.23529412, a: 0.39215687}
   occupiedState:
     fillColor: {r: 0, g: 0, b: 0, a: 0}
-    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0.22745098, g: 0.22745098, b: 0.23529412, a: 0.39215687}
   correctState:
-    fillColor: {r: 0, g: 0, b: 0, a: 0}
-    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    fillColor: {r: 0.07495262, g: 0.82546246, b: 0.21023321, a: 0.39215687}
+    outlineColor: {r: 0.078431375, g: 0.827451, b: 0.21176471, a: 0.39215687}
   wrongSpotState:
-    fillColor: {r: 0, g: 0, b: 0, a: 0}
-    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    fillColor: {r: 0.8665689, g: 0.9091808, b: 0.049442336, a: 0.39215687}
+    outlineColor: {r: 0.8666667, g: 0.9098039, b: 0.050980393, a: 0.39215687}
   incorrectState:
-    fillColor: {r: 0, g: 0, b: 0, a: 0}
-    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    fillColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0.39215687}
 --- !u!1001 &729131073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -800,7 +801,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7974673381050950084, guid: 2fbde598a56ceef869acc41f6560fab3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -977,7 +979,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7974673381050950084, guid: 2fbde598a56ceef869acc41f6560fab3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1248,7 +1251,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7974673381050950084, guid: 2fbde598a56ceef869acc41f6560fab3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1425,7 +1429,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7974673381050950084, guid: 2fbde598a56ceef869acc41f6560fab3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

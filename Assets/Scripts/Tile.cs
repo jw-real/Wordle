@@ -11,15 +11,17 @@ public class Tile : MonoBehaviour
         public Color outlineColor;
     }
 
-    private TextMeshProUGUI text;
-    private Image fill;
-    private Outline outline;
-
     public State state { get; private set;}
     public char letter { get; private set;}
+
+    private Image fill;
+    private Outline outline;
+    private TextMeshProUGUI text;
     
     private void Awake() 
     {
+        fill = GetComponent<Image>();
+        outline = GetComponent<Outline>();
         text = GetComponentInChildren<TextMeshProUGUI>();
     }
 
