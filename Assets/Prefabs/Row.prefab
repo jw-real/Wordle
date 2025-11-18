@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6898948359353369879}
   - component: {fileID: 679888435295512183}
+  - component: {fileID: 695542734949435558}
   m_Layer: 5
   m_Name: Row
   m_TagString: Untagged
@@ -67,6 +68,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &695542734949435558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7195668670141336824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502beebbc57f330e6a38c406b5a3f0b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2200644287475884505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78,6 +91,22 @@ PrefabInstance:
     - target: {fileID: 2284499852959067554, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
       propertyPath: m_Name
       value: Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_isOrthographic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_ActiveFontFeatures.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958782438942490339, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
       propertyPath: m_Pivot.x
@@ -181,6 +210,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile
       objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_isOrthographic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_ActiveFontFeatures.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7958782438942490339, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -282,6 +327,22 @@ PrefabInstance:
     - target: {fileID: 2284499852959067554, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
       propertyPath: m_Name
       value: Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_isOrthographic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_ActiveFontFeatures.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958782438942490339, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
       propertyPath: m_Pivot.x
@@ -385,6 +446,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile
       objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_isOrthographic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_ActiveFontFeatures.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7958782438942490339, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -487,6 +564,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile
       objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_isOrthographic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6964530761229653218, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      propertyPath: m_ActiveFontFeatures.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7958782438942490339, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -570,10 +663,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2284499852959067554, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6223204234573939952}
   m_SourcePrefab: {fileID: 100100000, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
 --- !u!224 &4298338285015258380 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7958782438942490339, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
   m_PrefabInstance: {fileID: 6184996518915959791}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5359750931926599245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2284499852959067554, guid: e0325f03cff1c7165a9a89e73fdd9d0a, type: 3}
+  m_PrefabInstance: {fileID: 6184996518915959791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6223204234573939952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5359750931926599245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027be679e5f6fff39ac761f136b761d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
