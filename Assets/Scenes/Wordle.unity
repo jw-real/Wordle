@@ -542,6 +542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 708793436}
   - component: {fileID: 708793437}
+  - component: {fileID: 708793438}
   m_Layer: 5
   m_Name: Board
   m_TagString: Untagged
@@ -600,6 +601,33 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &708793438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708793435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d39fbc8dad79208901de632291bf23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyState:
+    fillColor: {r: 0.22745098, g: 0.22745098, b: 0.23529412, a: 0.39215687}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  occupiedState:
+    fillColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  correctState:
+    fillColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  wrongSpotState:
+    fillColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  incorrectState:
+    fillColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &729131073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1716,7 +1744,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7974673381050950084, guid: 2fbde598a56ceef869acc41f6560fab3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
